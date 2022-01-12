@@ -40,7 +40,7 @@ nav div{
     color: black;
     text-transform: capitalize;
 }
-
+/* 
 .top-nav .fas {
     color: black;
     padding: 0px 10px;
@@ -49,7 +49,7 @@ nav div{
 .top-nav .fas:hover,
 a:hover {
     color: tomato;
-}
+} */
 
 
 
@@ -216,12 +216,20 @@ hr{
 
 .course-details{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+.rating{
+    padding-right: 5px~;
 }
 
 .rating i,p{
     display: inline-block;
+}
+
+.rating fas{
+    margin: 0;
+    padding: 0;
 }
 
 .filled{
@@ -230,20 +238,28 @@ hr{
 .empty{
     color: rgb(199, 199, 199);
 }
+
+
 .druation{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #FEE5DF;
     border-radius: 15px;
-    padding: 0px 10px;
+    padding: 0px 2px;
 }
 
-.druation p,i{
+.druation p{
     font-weight: 600;
     font-size: 10px;
     color: #FF4A60;
-    padding: 0;
+    padding: 0px 5px;
+}
+.far{
+    font-weight: 600;
+    font-size: 10px;
+    color: #FF4A60;
+    padding: 0px 5px;
 }
 
 
