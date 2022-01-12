@@ -9,7 +9,9 @@ body{
     background-color: #F3F1FF;
 }
 
-  /* navbar start */
+  /*------------------------
+        navbar start 
+  ---------------------------*/
 
   nav {
     display: flex;
@@ -32,19 +34,19 @@ nav div{
     height: 51px;
 }
 
-a {
+.top-nav a {
     padding: 0 20px;
     text-decoration: none;
     color: black;
     text-transform: capitalize;
 }
 
-.fas {
+.top-nav .fas {
     color: black;
     padding: 0px 10px;
 }
 
-.fas:hover,
+.top-nav .fas:hover,
 a:hover {
     color: tomato;
 }
@@ -84,6 +86,7 @@ a:hover {
     font-size: 24px;
     line-height: 36px;
     color: #562EFF;
+    text-transform: capitalize;
 }
 /* -----------------
     player section
@@ -131,8 +134,8 @@ hr{
     display: flex;
     align-items: left;
     /* problem ache solve korte hobe */
-    margin-left: 30px;
     box-shadow:0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+    margin-left: 10px;
 
 }
 .blog img{
